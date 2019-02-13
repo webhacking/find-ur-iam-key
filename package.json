@@ -1,0 +1,32 @@
+{
+  "name": "find-ur-iam-key",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/ts-node index.ts",
+    "find": "./node_modules/.bin/ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "a@hax0r.info",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/axios": "^0.14.0",
+    "@types/chalk": "^2.2.0",
+    "@types/command-line-args": "^5.0.0",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^11.9.3",
+    "aws-sdk": "^2.401.0",
+    "axios": "^0.18.0",
+    "bitbucket-api-v2": "^0.6.2",
+    "chalk": "^2.4.2",
+    "command-line-args": "^5.0.2",
+    "moment": "^2.24.0",
+    "prettier": "^1.16.4",
+    "rxjs": "^6.4.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
